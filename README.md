@@ -119,9 +119,6 @@ Coleção de exemplos práticos de processamento distribuído de dados com PySpa
 
 <img src="github-metrics.svg" alt="Métricas do GitHub" width="100%"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=enzozon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&locale=pt-br" alt="Estatísticas do GitHub"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=enzozon&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&locale=pt-br&hide=html,css" alt="Linguagens mais usadas"/>
-
 </div>
 
 <div align="center">
