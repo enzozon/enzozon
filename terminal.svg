@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, Menlo, monospace" font-size="14">
+  <!-- janela do terminal -->
+  <rect x="1" y="1" width="718" height="578" rx="10" fill="#16161e" stroke="#2f334d" stroke-width="2"/>
+  <rect x="1" y="1" width="718" height="36" rx="10" fill="#1f2335"/>
+  <rect x="1" y="20" width="718" height="17" fill="#1f2335"/>
+  <circle cx="24" cy="19" r="6" fill="#f7768e"/>
+  <circle cx="44" cy="19" r="6" fill="#e0af68"/>
+  <circle cx="64" cy="19" r="6" fill="#9ece6a"/>
+  <text x="360" y="24" text-anchor="middle" fill="#a9b1d6" font-size="13">enzo@github: ~</text>
+
+  <!-- prompt -->
+  <text x="32" y="70"><tspan fill="#9ece6a">$</tspan><tspan fill="#c0caf5"> enzofetch</tspan></text>
+
+  <!-- ascii art EZ -->
+  <text x="32" y="106" fill="#7aa2f7">███████╗███████╗</text>
+  <text x="32" y="128" fill="#7aa2f7">██╔════╝╚══███╔╝</text>
+  <text x="32" y="150" fill="#7dcfff">█████╗    ███╔╝</text>
+  <text x="32" y="172" fill="#7dcfff">██╔══╝   ███╔╝</text>
+  <text x="32" y="194" fill="#bb9af7">███████╗███████╗</text>
+  <text x="32" y="216" fill="#bb9af7">╚══════╝╚══════╝</text>
+
+  <!-- bloco: identidade -->
+  <text x="210" y="106"><tspan fill="#9ece6a" font-weight="bold">enzo</tspan><tspan fill="#565f89">@</tspan><tspan fill="#9ece6a" font-weight="bold">github</tspan></text>
+  <text x="210" y="128" fill="#3b4261">────────────────</text>
+  <text x="210" y="150"><tspan fill="#7dcfff">os</tspan><tspan fill="#3b4261"> ...........</tspan><tspan fill="#c0caf5"> Windows 11</tspan></text>
+  <text x="210" y="172"><tspan fill="#7dcfff">uptime</tspan><tspan fill="#3b4261"> .......</tspan><tspan fill="#c0caf5"> 21 anos</tspan></text>
+  <text x="210" y="194"><tspan fill="#7dcfff">local</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> Vitória · ES · Brasil</tspan></text>
+  <text x="210" y="216"><tspan fill="#7dcfff">formação</tspan><tspan fill="#3b4261"> .....</tspan><tspan fill="#c0caf5"> Ciência da Computação · UVV · 2027</tspan></text>
+  <text x="210" y="238"><tspan fill="#7dcfff">foco</tspan><tspan fill="#3b4261"> .........</tspan><tspan fill="#c0caf5"> estágio em desenvolvimento</tspan></text>
+
+  <!-- bloco: stack -->
+  <text x="210" y="282" fill="#bb9af7" font-weight="bold">stack</text>
+  <text x="210" y="304" fill="#3b4261">────────────────</text>
+  <text x="210" y="326"><tspan fill="#7dcfff">linguagens</tspan><tspan fill="#3b4261"> ...</tspan><tspan fill="#c0caf5"> Python, SQL, Java</tspan></text>
+  <text x="210" y="348"><tspan fill="#7dcfff">ml</tspan><tspan fill="#3b4261"> ...........</tspan><tspan fill="#c0caf5"> scikit-learn, XGBoost, SHAP, MLflow</tspan></text>
+  <text x="210" y="370"><tspan fill="#7dcfff">backend</tspan><tspan fill="#3b4261"> ......</tspan><tspan fill="#c0caf5"> FastAPI, Spring Boot, PostgreSQL</tspan></text>
+  <text x="210" y="392"><tspan fill="#7dcfff">dados</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> Pandas, PySpark</tspan></text>
+  <text x="210" y="414"><tspan fill="#7dcfff">ferramentas</tspan><tspan fill="#3b4261"> ..</tspan><tspan fill="#c0caf5"> Git, Docker, GitHub Actions</tspan></text>
+  <text x="210" y="436"><tspan fill="#7dcfff">idiomas</tspan><tspan fill="#3b4261"> ......</tspan><tspan fill="#c0caf5"> português · inglês (C2)</tspan></text>
+
+  <!-- bloco: contato -->
+  <text x="210" y="480" fill="#bb9af7" font-weight="bold">contato</text>
+  <text x="210" y="502" fill="#3b4261">────────────────</text>
+  <text x="210" y="524"><tspan fill="#7dcfff">email</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> enzozon7b@gmail.com</tspan></text>
+  <text x="210" y="546"><tspan fill="#7dcfff">linkedin</tspan><tspan fill="#3b4261"> .....</tspan><tspan fill="#c0caf5"> in/enzo-zon-ab71a7265</tspan></text>
+</svg>
