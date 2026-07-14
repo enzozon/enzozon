@@ -1,6 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 580" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, Menlo, monospace" font-size="14">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 612" font-family="ui-monospace, 'Cascadia Code', 'Fira Code', Consolas, Menlo, monospace" font-size="14" xml:space="preserve">
+  <style>
+    text { white-space: pre; }
+    .type tspan { opacity: 0; animation: aparecer 0.05s forwards; }
+    @keyframes aparecer { to { opacity: 1; } }
+    .fade { opacity: 0; animation: surgir 0.7s ease-out forwards; }
+    @keyframes surgir { to { opacity: 1; } }
+    .vapor { animation: subir 3.2s ease-in-out infinite; }
+    .v2 { animation-delay: 1.1s; }
+    .v3 { animation-delay: 2.2s; }
+    @keyframes subir {
+      0%   { opacity: 0; transform: translateY(7px); }
+      35%  { opacity: 0.9; }
+      100% { opacity: 0; transform: translateY(-11px); }
+    }
+    .cursor { animation: piscar 1.1s steps(1) infinite; }
+    @keyframes piscar { 50% { opacity: 0; } }
+  </style>
+
   <!-- janela do terminal -->
-  <rect x="1" y="1" width="718" height="578" rx="10" fill="#16161e" stroke="#2f334d" stroke-width="2"/>
+  <rect x="1" y="1" width="718" height="610" rx="10" fill="#16161e" stroke="#2f334d" stroke-width="2"/>
   <rect x="1" y="1" width="718" height="36" rx="10" fill="#1f2335"/>
   <rect x="1" y="20" width="718" height="17" fill="#1f2335"/>
   <circle cx="24" cy="19" r="6" fill="#f7768e"/>
@@ -8,39 +26,55 @@
   <circle cx="64" cy="19" r="6" fill="#9ece6a"/>
   <text x="360" y="24" text-anchor="middle" fill="#a9b1d6" font-size="13">enzo@github: ~</text>
 
-  <!-- prompt -->
-  <text x="32" y="70"><tspan fill="#9ece6a">$</tspan><tspan fill="#c0caf5"> enzofetch</tspan></text>
+  <!-- prompt digitando -->
+  <text x="32" y="70" class="type"><tspan fill="#9ece6a">$</tspan><tspan fill="#c0caf5" style="animation-delay:.15s"> e</tspan><tspan fill="#c0caf5" style="animation-delay:.25s">n</tspan><tspan fill="#c0caf5" style="animation-delay:.35s">z</tspan><tspan fill="#c0caf5" style="animation-delay:.45s">o</tspan><tspan fill="#c0caf5" style="animation-delay:.55s">f</tspan><tspan fill="#c0caf5" style="animation-delay:.65s">e</tspan><tspan fill="#c0caf5" style="animation-delay:.75s">t</tspan><tspan fill="#c0caf5" style="animation-delay:.85s">c</tspan><tspan fill="#c0caf5" style="animation-delay:.95s">h</tspan></text>
 
-  <!-- ascii art EZ -->
-  <text x="32" y="106" fill="#7aa2f7">███████╗███████╗</text>
-  <text x="32" y="128" fill="#7aa2f7">██╔════╝╚══███╔╝</text>
-  <text x="32" y="150" fill="#7dcfff">█████╗    ███╔╝</text>
-  <text x="32" y="172" fill="#7dcfff">██╔══╝   ███╔╝</text>
-  <text x="32" y="194" fill="#bb9af7">███████╗███████╗</text>
-  <text x="32" y="216" fill="#bb9af7">╚══════╝╚══════╝</text>
+  <!-- café com vapor animado -->
+  <g class="fade" style="animation-delay:1.2s">
+    <text x="64" y="124" fill="#565f89" class="vapor">(  (</text>
+    <text x="70" y="146" fill="#565f89" class="vapor v2">)  )</text>
+    <text x="58" y="140" fill="#565f89" class="vapor v3">(</text>
+    <text x="40" y="172" fill="#7aa2f7">.__________.</text>
+    <text x="40" y="194" fill="#7aa2f7">|          |]</text>
+    <text x="40" y="216" fill="#7dcfff">|          |</text>
+    <text x="40" y="238" fill="#7dcfff">\          /</text>
+    <text x="40" y="260" fill="#bb9af7"> `--------'</text>
+    <text x="47" y="296" fill="#565f89" font-style="italic" font-size="12">movido a café</text>
+  </g>
 
   <!-- bloco: identidade -->
-  <text x="210" y="106"><tspan fill="#9ece6a" font-weight="bold">enzo</tspan><tspan fill="#565f89">@</tspan><tspan fill="#9ece6a" font-weight="bold">github</tspan></text>
-  <text x="210" y="128" fill="#3b4261">────────────────</text>
-  <text x="210" y="150"><tspan fill="#7dcfff">os</tspan><tspan fill="#3b4261"> ...........</tspan><tspan fill="#c0caf5"> Windows 11</tspan></text>
-  <text x="210" y="172"><tspan fill="#7dcfff">uptime</tspan><tspan fill="#3b4261"> .......</tspan><tspan fill="#c0caf5"> 21 anos</tspan></text>
-  <text x="210" y="194"><tspan fill="#7dcfff">local</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> Vitória · ES · Brasil</tspan></text>
-  <text x="210" y="216"><tspan fill="#7dcfff">formação</tspan><tspan fill="#3b4261"> .....</tspan><tspan fill="#c0caf5"> Ciência da Computação · UVV · 2027</tspan></text>
-  <text x="210" y="238"><tspan fill="#7dcfff">foco</tspan><tspan fill="#3b4261"> .........</tspan><tspan fill="#c0caf5"> estágio em desenvolvimento</tspan></text>
+  <g class="fade" style="animation-delay:1.4s">
+    <text x="210" y="106"><tspan fill="#9ece6a" font-weight="bold">enzo</tspan><tspan fill="#565f89">@</tspan><tspan fill="#9ece6a" font-weight="bold">github</tspan></text>
+    <text x="210" y="128" fill="#3b4261">────────────────</text>
+    <text x="210" y="150"><tspan fill="#7dcfff">os</tspan><tspan fill="#3b4261"> ...........</tspan><tspan fill="#c0caf5"> Windows 11</tspan></text>
+    <text x="210" y="172"><tspan fill="#7dcfff">uptime</tspan><tspan fill="#3b4261"> .......</tspan><tspan fill="#c0caf5"> 21 anos</tspan></text>
+    <text x="210" y="194"><tspan fill="#7dcfff">local</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> Vitória · ES · Brasil</tspan></text>
+    <text x="210" y="216"><tspan fill="#7dcfff">formação</tspan><tspan fill="#3b4261"> .....</tspan><tspan fill="#c0caf5"> Ciência da Computação · UVV · 2027</tspan></text>
+    <text x="210" y="238"><tspan fill="#7dcfff">foco</tspan><tspan fill="#3b4261"> .........</tspan><tspan fill="#c0caf5"> estágio em desenvolvimento</tspan></text>
+  </g>
 
   <!-- bloco: stack -->
-  <text x="210" y="282" fill="#bb9af7" font-weight="bold">stack</text>
-  <text x="210" y="304" fill="#3b4261">────────────────</text>
-  <text x="210" y="326"><tspan fill="#7dcfff">linguagens</tspan><tspan fill="#3b4261"> ...</tspan><tspan fill="#c0caf5"> Python, SQL, Java</tspan></text>
-  <text x="210" y="348"><tspan fill="#7dcfff">ml</tspan><tspan fill="#3b4261"> ...........</tspan><tspan fill="#c0caf5"> scikit-learn, XGBoost, SHAP, MLflow</tspan></text>
-  <text x="210" y="370"><tspan fill="#7dcfff">backend</tspan><tspan fill="#3b4261"> ......</tspan><tspan fill="#c0caf5"> FastAPI, Spring Boot, PostgreSQL</tspan></text>
-  <text x="210" y="392"><tspan fill="#7dcfff">dados</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> Pandas, PySpark</tspan></text>
-  <text x="210" y="414"><tspan fill="#7dcfff">ferramentas</tspan><tspan fill="#3b4261"> ..</tspan><tspan fill="#c0caf5"> Git, Docker, GitHub Actions</tspan></text>
-  <text x="210" y="436"><tspan fill="#7dcfff">idiomas</tspan><tspan fill="#3b4261"> ......</tspan><tspan fill="#c0caf5"> português · inglês (C2)</tspan></text>
+  <g class="fade" style="animation-delay:1.7s">
+    <text x="210" y="284" fill="#bb9af7" font-weight="bold">stack</text>
+    <text x="210" y="306" fill="#3b4261">────────────────</text>
+    <text x="210" y="328"><tspan fill="#7dcfff">linguagens</tspan><tspan fill="#3b4261"> ...</tspan><tspan fill="#c0caf5"> Python, SQL, Java</tspan></text>
+    <text x="210" y="350"><tspan fill="#7dcfff">ml</tspan><tspan fill="#3b4261"> ...........</tspan><tspan fill="#c0caf5"> scikit-learn, XGBoost, SHAP, MLflow</tspan></text>
+    <text x="210" y="372"><tspan fill="#7dcfff">backend</tspan><tspan fill="#3b4261"> ......</tspan><tspan fill="#c0caf5"> FastAPI, Spring Boot, PostgreSQL</tspan></text>
+    <text x="210" y="394"><tspan fill="#7dcfff">dados</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> Pandas, PySpark</tspan></text>
+    <text x="210" y="416"><tspan fill="#7dcfff">ferramentas</tspan><tspan fill="#3b4261"> ..</tspan><tspan fill="#c0caf5"> Git, Docker, GitHub Actions</tspan></text>
+    <text x="210" y="438"><tspan fill="#7dcfff">idiomas</tspan><tspan fill="#3b4261"> ......</tspan><tspan fill="#c0caf5"> português · inglês (C2)</tspan></text>
+  </g>
 
   <!-- bloco: contato -->
-  <text x="210" y="480" fill="#bb9af7" font-weight="bold">contato</text>
-  <text x="210" y="502" fill="#3b4261">────────────────</text>
-  <text x="210" y="524"><tspan fill="#7dcfff">email</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> enzozon7b@gmail.com</tspan></text>
-  <text x="210" y="546"><tspan fill="#7dcfff">linkedin</tspan><tspan fill="#3b4261"> .....</tspan><tspan fill="#c0caf5"> in/enzo-zon-ab71a7265</tspan></text>
+  <g class="fade" style="animation-delay:2s">
+    <text x="210" y="482" fill="#bb9af7" font-weight="bold">contato</text>
+    <text x="210" y="504" fill="#3b4261">────────────────</text>
+    <text x="210" y="526"><tspan fill="#7dcfff">email</tspan><tspan fill="#3b4261"> ........</tspan><tspan fill="#c0caf5"> enzozon7b@gmail.com</tspan></text>
+    <text x="210" y="548"><tspan fill="#7dcfff">linkedin</tspan><tspan fill="#3b4261"> .....</tspan><tspan fill="#c0caf5"> in/enzo-zon-ab71a7265</tspan></text>
+  </g>
+
+  <!-- prompt final com cursor piscando -->
+  <g class="fade" style="animation-delay:2.3s">
+    <text x="32" y="586"><tspan fill="#9ece6a">$</tspan><tspan fill="#c0caf5" class="cursor"> ▍</tspan></text>
+  </g>
 </svg>
