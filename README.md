@@ -16,6 +16,28 @@ Comecei a mexer com dados no estágio no Tribunal de Justiça do ES, escrevendo 
 <tr>
 <td width="50%" valign="top">
 
+#### [Agent Observability Hub](https://github.com/enzozon/agent-observability-hub)
+
+Sistema multi-agente para análise de custos de frota: structured output, guardrails, observabilidade e eval harness, desenvolvido com TDD.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=claude&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### [Encurtador de URL](https://github.com/enzozon/encurtador-url)
+
+Encurtador de URL em Python stdlib pura, sem dependências externas — construído por times de agentes de IA.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### [Previsão de Churn](https://github.com/enzozon/python_ML)
 
 Pipeline de ML completo: dois modelos comparados via MLflow, explicabilidade com SHAP e narrativas geradas pela Claude API, servido em FastAPI com testes, CI e Docker.
