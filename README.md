@@ -105,6 +105,19 @@ Exemplos práticos de processamento distribuído de dados com PySpark.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [BI Governance Toolkit](https://github.com/enzozon/bi-governance-toolkit)
+
+Kit de suporte e governança para Power BI Service: cliente REST da Power BI API, auditoria de workspaces, relatório de acessos, biblioteca de medidas DAX e dashboard sobre um esquema estrela — com testes, CI e Docker.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+</td>
+</tr>
 </table>
 
 ### Tecnologias
@@ -112,6 +125,7 @@ Exemplos práticos de processamento distribuído de dados com PySpark.
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
