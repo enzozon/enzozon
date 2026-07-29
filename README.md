@@ -35,6 +35,8 @@ Biblioteca e CLI em TypeScript para documentos brasileiros: CPF, CNPJ (incluindo
 
 Sistema multi-agente para análise de custos de frota: structured output, guardrails, observabilidade e eval harness, desenvolvido com TDD.
 
+[![CI](https://github.com/enzozon/agent-observability-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/enzozon/agent-observability-hub/actions/workflows/ci.yml)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
@@ -48,6 +50,8 @@ Sistema multi-agente para análise de custos de frota: structured output, guardr
 
 Pipeline de ML completo: dois modelos comparados via MLflow, explicabilidade com SHAP e narrativas geradas pela Claude API, servido em FastAPI com testes, CI e Docker.
 
+[![CI](https://github.com/enzozon/churn-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/enzozon/churn-prediction/actions/workflows/ci.yml)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EB5E28?style=flat-square)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
@@ -59,6 +63,8 @@ Pipeline de ML completo: dois modelos comparados via MLflow, explicabilidade com
 #### [API Backend em Java](https://github.com/enzozon/projeto-java)
 
 API RESTful com design de endpoints e boas práticas de arquitetura backend, testes via Postman e containerização.
+
+[![CI](https://github.com/enzozon/projeto-java/actions/workflows/ci.yml/badge.svg)](https://github.com/enzozon/projeto-java/actions/workflows/ci.yml)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -117,6 +123,8 @@ Exemplos práticos de processamento distribuído de dados com PySpark.
 #### [BI Governance Toolkit](https://github.com/enzozon/bi-governance-toolkit)
 
 Kit de suporte e governança para Power BI Service: cliente REST da Power BI API, auditoria de workspaces, relatório de acessos, biblioteca de medidas DAX e dashboard sobre um esquema estrela — com testes, CI e Docker.
+
+[![CI](https://github.com/enzozon/bi-governance-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/enzozon/bi-governance-toolkit/actions/workflows/ci.yml)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
