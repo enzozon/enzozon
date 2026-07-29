@@ -10,10 +10,25 @@ Sou o Enzo, estudante de Ciência da Computação na UVV (Vitória-ES, me formo 
 
 Comecei a mexer com dados no estágio no Tribunal de Justiça do ES, escrevendo e mantendo scripts SQL em ambiente de homologação e trabalhando com PostgreSQL. De lá pra cá, fui atrás do que mais me interessa: construir coisas de ponta a ponta — hoje meus projetos vão do dado bruto ao modelo de machine learning servido numa API, com testes, CI e Docker.
 
+Também gosto de escrever biblioteca, onde a régua de qualidade é mais alta: o [validabr](https://github.com/enzozon/validabr) é uma lib TypeScript sem nenhuma dependência de produção, com API pública versionada, CLI e cobertura de testes acima de 95%.
+
 ### Projetos
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+#### [validabr](https://github.com/enzozon/validabr)
+
+Biblioteca e CLI em TypeScript para documentos brasileiros: CPF, CNPJ (incluindo o alfanumérico que entrou em vigor em 2026), CEP, telefone, PIS/PASEP, título de eleitor e chave Pix. Zero dependências, 181 testes e ~99% de cobertura, com CI em Node 20, 22 e 24.
+
+[![CI](https://github.com/enzozon/validabr/actions/workflows/ci.yml/badge.svg)](https://github.com/enzozon/validabr/actions/workflows/ci.yml)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
+</td>
 <td width="50%" valign="top">
 
 #### [Agent Observability Hub](https://github.com/enzozon/agent-observability-hub)
@@ -25,20 +40,11 @@ Sistema multi-agente para análise de custos de frota: structured output, guardr
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 </td>
-<td width="50%" valign="top">
-
-#### [Encurtador de URL](https://github.com/enzozon/encurtador-url)
-
-Encurtador de URL em Python stdlib pura, sem dependências externas — construído por times de agentes de IA.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [Previsão de Churn](https://github.com/enzozon/python_ML)
+#### [Previsão de Churn](https://github.com/enzozon/churn-prediction)
 
 Pipeline de ML completo: dois modelos comparados via MLflow, explicabilidade com SHAP e narrativas geradas pela Claude API, servido em FastAPI com testes, CI e Docker.
 
@@ -117,6 +123,15 @@ Kit de suporte e governança para Power BI Service: cliente REST da Power BI API
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 </td>
+<td width="50%" valign="top">
+
+#### [Encurtador de URL](https://github.com/enzozon/encurtador-url)
+
+Encurtador de URL em Python stdlib pura, sem dependências externas — construído por times de agentes de IA.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</td>
 </tr>
 </table>
 
@@ -125,6 +140,8 @@ Kit de suporte e governança para Power BI Service: cliente REST da Power BI API
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -135,6 +152,7 @@ Kit de suporte e governança para Power BI Service: cliente REST da Power BI API
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
